@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+@keyframes text-focus-in {
+    0% {
+        filter: blur(12px);
+        opacity: 0;
+    }
+
+    100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+
+
+body {
+    font-family: 'Rubik',sans-serif;
+    /* color: #686A6F; */
+    background-color: #F5F7FA;
+    /* -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
+}
+
+/* NAVBAR CSS */
+.bg-body-tertiary {
+    background-color: rgb(255, 255, 255) !important;
+    color: #686A6F;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+.nav-link {
+    color: rgb(114, 114, 114);
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: rgb(114, 114, 114);
+    transform: scale(1.1);
+}
+
+.logo-text {
+    font-size: 30px;
+    color: rgb(114, 114, 114);
+    transition: 0.5s;
+    text-decoration: none;
+    margin-left: 5%;
+}
+
+.logo-text:hover {
+    transition: .5s;
+    transform: scale(1.2);
+}
+
+
+.bg-primary {
+    background-color: #ffaa17 !important;
+    margin-top: 2%;
+}
+
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+  /* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 0, 0); }
+}
+
+.header-title {
+    font-size: 100px;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    /* letter-spacing: .15em; */
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.img-fluid {
+    width: 60%;
+    border-radius: 50%;
+    box-shadow: rgb(107, 107, 107) 0 8px 16px;
+    box-decoration-break: slice;
+    margin-right: 2%;
+}
+
+
+.col-lg-6 svg {
+    transition: .5s;
+    margin-right: 2%;
+}
+
+.col-lg-6 svg:hover {
+    transition: .5s;
+    transform: scale(1.2);
+}
+
+.tab_img {
+    display: inline-block;
+}
+
+.img-project {
+    width: 100%;
+    border-radius: 1.25rem;
+    transition: .5s;
+}
+
+.img-project:hover {
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+.techs svg {
+    transition: .5s;
+}
+
+.techs svg:hover {
+    transition: .5s;
+    transform: scale(1.2);
+}
+
+.datas {
+    padding-top: 5%;
+}
+
+.buttons-links {
+    padding-top: 10%;
+}
+
+.buttons-links button {
+    transition: .5s;
+}
+
+.buttons-links button:hover {
+    transition: .5s;
+    transform: scale(1.1);
+}
+
+.mx-auto {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.navbarfooter {
+    background-color: transparent !important;
+}
+
+.copyright {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
